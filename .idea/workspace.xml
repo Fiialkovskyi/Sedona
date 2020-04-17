@@ -41,6 +41,16 @@
       </list>
     </option>
   </component>
+  <component name="RunManager">
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Sedona/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.index.html" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -55,7 +65,8 @@
       <workItem from="1587015493051" duration="10195000" />
       <workItem from="1587037391410" duration="2806000" />
       <workItem from="1587040341782" duration="10696000" />
-      <workItem from="1587108584617" duration="10677000" />
+      <workItem from="1587108584617" duration="12979000" />
+      <workItem from="1587136085229" duration="10609000" />
     </task>
     <servers />
   </component>
@@ -67,7 +78,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

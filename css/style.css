@@ -80,6 +80,46 @@ img {
     line-height: 26px;
 }
 
+.button-minus {
+    padding: 0;
+
+    width: 11px;
+    height: 11px;
+
+    background-image: url("../img/minus-gray.png");
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-color: transparent;
+}
+
+.button-minus:hover {
+    background-image: url("../img/minus-black.png");
+}
+
+.button-minus:active {
+    background-image: url("../img/minus-blue.png");
+}
+
+.button-plus {
+    padding: 0;
+
+    width: 11px;
+    height: 11px;
+
+    background-image: url("../img/plus-gray.png");
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-color: transparent;
+}
+
+.button-plus:hover {
+    background-image: url("../img/plus-black.png");
+}
+
+.button-plus:active {
+    background-image: url("../img/plus-blue.png");
+}
+
 /* ---  Header --- */
 
 .main-navigation {
@@ -343,4 +383,109 @@ img {
 
     width: 1200px;
     height: 593px;
+}
+
+.modal-form {
+    position: absolute;
+    box-sizing: border-box;
+    left: 50%;
+    margin-left: -284px;
+    padding: 55px;
+    width: 568px;
+
+    font-weight: bold;
+
+    background-color: #ffffff;
+
+    z-index: 1;
+}
+
+.modal-form p {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 0;
+    margin: 0;
+    margin-bottom: 29px;
+}
+
+.modal-form input {
+    box-sizing: border-box;
+    width: 346px;
+
+    margin: 0;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 13px;
+    padding-right: 30px;
+
+    font: inherit;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #000000;
+
+    background-color: #f2f2f2;
+
+    border: none;
+}
+
+.modal-form input::placeholder {
+    color: #000000;
+}
+
+.modal-form svg {
+    position: absolute;
+    top: 8px;
+    right: 9px;
+
+    fill: #a9a9a9;
+    z-index: 1;
+}
+
+.modal-form svg:hover {
+    fill: #000000;
+}
+
+.modal-form svg:active {
+    fill: #81b3d2;
+}
+
+.age-category {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.age-category-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 226px;
+}
+
+.controls-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 13px;
+    box-sizing: border-box;
+    width: 114px;
+    background-color: #f2f2f2;
+
+}
+
+.age-category input {
+    padding-left: 0;
+    padding-right: 0;
+    width: 38px;
+
+    text-align: center;
+}
+
+.age-category-wrapper:last-child {
+    width: 179px;
 }
