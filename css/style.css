@@ -80,6 +80,17 @@ img {
     line-height: 26px;
 }
 
+.form-search-button {
+    margin-top: 54px;
+    padding: 16px 29px;
+    width: 458px;
+
+    font-size: 21px;
+    line-height: 26px;
+
+    background-color: #81b3d2;
+}
+
 .button-minus {
     padding: 0;
 
@@ -366,25 +377,6 @@ img {
     line-height: 24px;
 }
 
-.map-screen {
-    position: relative;
-}
-
-.map-screen iframe {
-    position: relative;
-}
-
-.map-screen img{
-    display: block;
-
-    position: absolute;
-    top: 0;
-    left: 0;
-
-    width: 1200px;
-    height: 593px;
-}
-
 .modal-form {
     position: absolute;
     box-sizing: border-box;
@@ -488,4 +480,28 @@ img {
 
 .age-category-wrapper:last-child {
     width: 179px;
+}
+
+
+
+
+.map-screen {
+    position: relative;
+}
+
+.map-screen iframe {
+    position: relative;
+    display: block;
+    border: none;
+}
+
+.map-screen img{
+    display: block;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 1200px;
+    height: 593px;
 }
